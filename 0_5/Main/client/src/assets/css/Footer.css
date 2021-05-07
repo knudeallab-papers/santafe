@@ -1,0 +1,10 @@
+.copyright {
+    position: absolute;
+    width: 100%;
+    font-weight: 600;
+    text-align: center;
+}
+
+#logo-img {
+    width: 210px;
+}

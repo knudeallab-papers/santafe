@@ -1,0 +1,209 @@
+  .clustercontainer {
+      width: 100%;
+  }
+
+  .clustercontainer ul{
+    border:5px solid #fff;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+  }
+
+  .selectimgsection {
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .visibleimg {
+    width: 45%;
+    height: 40%;
+    border-radius: 10px;
+  }
+
+  .unselectimg {
+    width: 45%;
+    height: 40%;
+    border-radius: 10px;
+    visibility: hidden;
+  }
+
+  .selectimg {
+    width: 45%;
+    height: 40%;
+    border-radius: 10px;
+    visibility: visible;
+    animation-name: imgselection;
+    animation-duration: 500ms;
+  }
+
+  .noline {
+    border: white 0px;
+  }
+
+  .paramcontainer {
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
+    margin-top: 30px;
+    margin-bottom: 30px;
+  }
+
+  .paramitem {
+    margin : 10px 0px;
+    text-align: center;
+  }
+
+  .paramspan {
+    display: inline-block;
+    width : 50%;
+    font-size: 100%;
+    font-weight: bold;
+  }
+
+  .paramtextbox {
+    border-radius: 7px;
+    border-color: black;
+    width: 80%;
+  }
+
+  .empty-paramtextbox {
+    border-radius: 7px;
+    width: 80%;
+    border-color: rgb(218, 9, 50);
+    animation: shake 600ms;
+  }
+
+  .subcontainer {
+    margin-top: 30px;
+    height: 320px;
+  }
+
+  .selectcontents{
+    margin: 50px 0 0 30px;
+  }
+
+  .subtitle {
+    text-align: center;
+    margin: 50px 0 0 0;
+  }
+
+  .onebuttonsection {
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    width: 500px;
+  }
+
+  .twobuttonsection {
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    width: 500px;
+  }
+
+  .buttonstyle {
+    margin : 20px;
+  }
+
+  .threebuttonstyle {
+    margin : 10px;
+  }
+
+  .staticinputstyle {
+    border: 0px none;
+    background-color: white;
+    color: red;
+    font-weight: bolder;
+    width: 400px
+  }
+
+  .listStyle{
+    display: inline-block;
+    padding: 10px 0px;
+    width: 100%;
+    background-color: #caccdd;
+    margin-bottom: 10px;
+    color:rgb(0, 0, 0);
+    border-radius: 30px;
+  }
+
+  .ulStyle{
+    height: 320px;
+    overflow: scroll;
+  }
+  
+  .listStyle input[type=radio]{
+    position: absolute;
+    visibility: hidden;
+    height: 100px;
+  }
+  
+  .listStyle label{
+    display: block;
+    text-align: center;
+    position: relative;
+    font-weight: 400;
+    font-size: 1.35em;
+    margin: 5px auto;
+    z-index: 9;
+    cursor: pointer;
+    -webkit-transition: all 0.25s linear;
+  }
+  
+  .ulStyle li:hover label{
+      color: #ffffff;
+      text-decoration: solid;
+  }
+
+  .listStyle:hover {
+    background-color: rgb(72, 74, 100);
+  }
+  
+  .listStyle input[type=radio]:checked ~ label{
+    color: rgb(0, 0, 0);
+    font-weight: bolder;
+    transition-duration: 200ms;
+  }
+
+  .listStyle input[type=radio]:checked:hover ~ label{
+    color: rgb(255, 255, 255);
+    font-weight: bolder;
+    transition-duration: 200ms;
+  }
+
+  .commentstyle {
+    text-align: center;
+    font-size: 1.13rem;
+    color: rgb(0, 0, 0);
+    animation-name: shake;
+    animation-duration: 600ms;
+    animation-fill-mode: forwards;
+    visibility: hidden;
+  }
+
+  @keyframes shake {
+    0%{ 
+      opacity: 0;
+      transform:translateX(-5px)
+    }
+    20%{ transform:translateX(5px) }
+    40%{ transform:translateX(-5px) }
+    60%{ transform:translateX(5px) }
+    80%{ transform:translateX(-5px) }
+    100%{ 
+      transform:translateX(0);
+      opacity: 1;
+      visibility: visible;
+    }
+  }
+
+  @keyframes imgselection {
+    from {
+      opacity: 0;
+    }
+    to {
+      opacity: 1;
+    }
+  }
