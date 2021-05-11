@@ -57,29 +57,31 @@ npm run dev
 
 ### Page View
 
-![image](https://user-images.githubusercontent.com/57346455/113567554-ccf02000-9649-11eb-88ee-70a5232cff7c.png)
+![image](https://user-images.githubusercontent.com/57346455/117799430-0e00d300-b28d-11eb-857a-98e0f16dbc89.png)
 
 웹페이지 홈 화면에서는 본 시스템의 주요 페이지 3화면의 설명을 보고 이동할 수 있도록 버튼을 제공하고 있다.
 
 <br/>
 
-![image](https://user-images.githubusercontent.com/57346455/113567892-71726200-964a-11eb-9825-9449f362abc6.png)
+![image](https://user-images.githubusercontent.com/57346455/117799525-2f61bf00-b28d-11eb-8fb1-1afdcbbd47a2.png)
 
 introduction 페이지에서는 해당 프로젝트의 System Architecture, 주요 기능, Publication, 참여 인원들을 확인해볼 수 있다.
 
 <br/>
 
-![image](https://user-images.githubusercontent.com/57346455/113567839-530c6680-964a-11eb-84ed-4c852dfd7c98.png)
+![image](https://user-images.githubusercontent.com/57346455/117799622-47d1d980-b28d-11eb-90a3-86d982033015.png)
 
 Time Estimation 페이지에서는 Cluster type, App name, Paramter set 이렇게 3가지 종류의 정보들을 선택 및 입력해야 한다.
 
-![image](https://user-images.githubusercontent.com/57346455/113568072-c8783700-964a-11eb-8d10-feb9ec5caa63.png)
+<br/>
+
+![image](https://user-images.githubusercontent.com/57346455/117799766-6b951f80-b28d-11eb-85b3-166d4abd389b.png)
 
 모든 정보를 입력하고 submit 버튼을 클릭할 시 해당하는 정보에 대한 시뮬레이션 추정시간을 서버에서 받아볼 수 있다. 또한 Reset 버튼을 통해 다시 조건을 선택해 추정시간을 알아볼 수 있다.
 
 <br/>
 
-![image](https://user-images.githubusercontent.com/57346455/113568211-12f9b380-964b-11eb-83b1-66d78e8d33c0.png)
+![image](https://user-images.githubusercontent.com/57346455/117799863-89fb1b00-b28d-11eb-8b50-7ddc91f428dd.png)
 
 Param Statistics 페이지의 경우에도 Time Estimation 페이지와 유사하게 Cluster type, App name 두가지 데이터를 선택할 시 가장 많이 검색해본 해당 App의 상위 10개 parameter set을 확인해 볼 수 있다. 이 페이지 또한 Reset 버튼을 통해 다른 App들의 Statistics도 확인해볼 수 있다.
 
